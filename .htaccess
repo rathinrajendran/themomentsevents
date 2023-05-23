@@ -1,0 +1,9 @@
+RewriteEngine On
+
+
+#Pages
+RewriteRule ^home$ ./index.php [L]
+RewriteRule ^all-list$ ./all-list.php [L]
+RewriteRule ^about-us$ ./about-us.php [L]
+RewriteRule ^our-services$ ./services.php [L]
+RewriteRule ^contact-us$ ./contact-us.php [L]
