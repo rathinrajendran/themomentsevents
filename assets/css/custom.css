@@ -1,3 +1,16 @@
+/* instrument-serif-regular - latin */
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Instrument Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/instrument-serif/instrument-serif-v4-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
 /* barlow-100 - latin */
 
 @font-face {
@@ -378,7 +391,7 @@
 }
 
 body {
-    font-family: 'Playfair Display';
+    font-family: 'Instrument Serif';
     overflow-x: hidden;
     -ms-overflow-style: auto;
     scrollbar-color: #6A7577 #dadeed;
@@ -681,6 +694,8 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     padding: 100px 0;
+    border-radius: 15px;
+    border: solid 2px #000000;
 }
 
 .common p {
@@ -689,7 +704,7 @@ body::-webkit-scrollbar {
 }
 
 .footer-block {
-    background: #1e2446;
+    border-top: solid 1px #000000;
     padding: 30px 30px 0 30px;
 }
 
@@ -759,13 +774,12 @@ body::-webkit-scrollbar {
 }
 
 .navbar-main {
-    background: #ffffff;
-    /* background: #1e2446; */
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 9;
+    background: #ffffff;
 }
 
 .main-block.sticky .navbar-brand {
@@ -773,12 +787,9 @@ body::-webkit-scrollbar {
 }
 
 .navbar-main .navbar-brand {
-    width: 60px;
-    max-width: 60px;
+    max-width: 125px;
     margin: 0;
     padding: 10px 10px;
-    background: #2b3157;
-    height: 80px;
     display: flex;
     align-items: center;
 }
@@ -886,6 +897,8 @@ body::-webkit-scrollbar {
 .about-img img {
     height: 100%;
     object-fit: cover;
+    border-radius: 130px;
+    border: solid 2px #000000;
 }
 
 .about-img-block {
@@ -940,14 +953,15 @@ body::-webkit-scrollbar {
 }
 
 .menu-ul a {
-    color: #ffffff;
+    color: #000000;
     padding: 15px 0;
     display: block;
     font-family: 'Barlow';
     text-transform: uppercase;
-    letter-spacing: -1.5px;
-    font-size: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
     text-decoration: none;
+    margin: 0 10px;
 }
 
 .menu-ul {
@@ -985,8 +999,35 @@ body::-webkit-scrollbar {
     padding: 80px 0;
 }
 
+.services-block .img-block {
+    position: relative;
+    padding: 0 0 15px 0;
+}
+
+.services-block .img-block img {
+    border-radius: 15px;
+    border: solid 2px black;
+}
+
+.service-small {
+    padding: 0 30px 0 0;
+}
+
+.service-small .img-block::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: solid 2px #000000;
+    border-radius: 15px;
+    top: 30px;
+    left: 30px;
+    z-index: -1;
+}
+
 .service-small h4 {
-    margin: 5px 0 30px 0;
+    margin: -10px 0 30px 0;
+    padding: 0 0 0 50px;
 }
 
 .services-section {
@@ -1059,4 +1100,112 @@ HAMBURGER MENU
     bottom: 0;
     transform: rotate(-45deg);
     transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.menu-block {
+    width: calc(50% - 75px);
+    border-bottom: solid 1px #000000;
+}
+
+.logo-block {
+    width: 150px;
+    margin: 30px 0 -30px 0;
+}
+
+.categories-ul {
+    list-style: none;
+    text-align: center;
+}
+
+.categories-ul a {
+    font-family: 'Instrument Serif';
+    text-decoration: none;
+    font-size: 5rem;
+    color: #252525;
+    position: relative;
+    line-height: 1.1;
+}
+
+.invitations-li a {
+    position: relative;
+}
+
+.invitations-li a::before {
+    content: "";
+    background-image: url(../img/services/1.jpg);
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    background-size: contain;
+    top: 10px;
+    z-index: -1;
+    background-repeat: no-repeat;
+    transform: rotate(-15deg);
+    right: 80%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.invitations-li a:hover::before {
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+
+.beauticians-li a::before {
+    content: "";
+    background-image: url(../img/services/11.jpg);
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    background-size: contain;
+    top: 50%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    transform: rotate(-15deg) translate(-50%, -50%);
+    left: 50%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.beauticians-li a:hover::before {
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+    transform: rotate(0deg) translate(-50%, -50%);
+}
+
+.col-img .img-block .img img {
+    border-radius: 15px;
+    filter: grayscale(1);
+}
+
+.col-img .img-block .img img:hover {
+    filter: grayscale(0);
+}
+
+.section-img,
+.section-img .container-fluid {
+    padding: 0;
+}
+
+.section-img .container-fluid .row .col-img:nth-child(1) img {
+    border-radius: 0 150px 150px 0;
+    border: solid 2px #000000;
+    border-left: none;
+}
+
+.section-img .container-fluid .row .col-img:nth-child(2) img {
+    border-radius: 150px;
+    border: solid 2px #000000;
+}
+
+.section-img .container-fluid .row .col-img:nth-child(3) img {
+    border-radius: 150px 0 0 150px;
+    border: solid 2px #000000;
+    border-right: none;
 }

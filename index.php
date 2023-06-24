@@ -120,9 +120,30 @@
         </div>
     </div>
 </section>
+
+<section class="categories-block">
+    <div class="categories">
+        <div class="categories-txt">
+            <h4>Categories.</h4>
+            <ul class="categories-ul">
+                <li><a href="">Photography</a></li>
+                <li><a href="">Videography</a></li>
+                <li class="invitations-li"><a href="">Invitations</a></li>
+                <li><a href="">Catering</a></li>
+                <li><a href="">Decorations</a></li>
+                <li class="beauticians-li"><a href="">Beauticians</a></li>
+                <li><a href="">Lights & Sounds</a></li>
+                <li><a href="">Entertainment</a></li>
+                <li><a href="">Travel</a></li>
+                <li><a href="">Designs</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
 <section class="section-img">
     <div class="container-fluid">
-        <div class="row m-0 h-100">
+        <div class="row h-100">
             <div class="col-md-4 p-3 col-img">
                 <div class="img-block">
                     <div class="img">

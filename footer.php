@@ -6,7 +6,7 @@
                         <div class="col-md-6">
                             <div class="footer-logo-copy">
                                 <div class="footer-logo">
-                                    <img class="img-fluid" src="assets/img/m-logo.png">
+                                    <img class="img-fluid" src="assets/img/logo-small.png">
                                 </div>
                                 <div class="footer-copy">
                                     <ul>

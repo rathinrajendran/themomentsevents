@@ -23,7 +23,49 @@
 <body>
     <div class="main-block">
         <div class="navbar-main">
-            <nav class="navbar navbar-expand-lg p-0">
+            <div class="row h-100">
+                <div class="menu-block">
+                    <div class="row m-0 justify-content-center h-100 align-items-center">
+                        <ul class="menu-ul text-left list-inline">
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="tel:+919633740449">+91 9633 740 449</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="tel:+918891502218">+91 8891 502 218</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="logo-block">
+                    <div class="row m-0 justify-content-center h-100 align-items-center">
+                        <a class="navbar-brand" href="home">
+                            <img class="img-fluid" src="assets/img/logo/logo.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-block">
+                    <div class="row m-0 justify-content-center h-100 align-items-center">
+                        <ul class="menu-ul text-left list-inline">
+                            <li class="list-inline-item">
+                                <a href="">Home</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="about-us">About</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="our-services">Services</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="contact-us">Contact</a>
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- <nav class="navbar navbar-expand-lg p-0">
                 <a class="navbar-brand" href="home">
                     <img class="img-fluid" src="assets/img/logo-small-white.png">
                 </a>
@@ -32,7 +74,6 @@
                         <div class="hamburger-menu">
                             <div class="bar"></div>
                         </div>
-                        <!-- <img class="img-fluid ml-1" src="assets/img/bar.png"> -->
                     </button>
                 </div>
                 <div class="collapse navbar-collapse" id="menuNavbar">
@@ -52,11 +93,10 @@
                             <div class="hamburger-menu">
                                 <div class="bar"></div>
                             </div>
-                            <!-- <img class="img-fluid ml-1" src="assets/img/bar.png"> -->
                         </button>
                     </div>
                 </div>
-            </nav>
+            </nav> -->
         </div>
         <div class="menu-main">
             <div class="col-12 menu-sub h-100">

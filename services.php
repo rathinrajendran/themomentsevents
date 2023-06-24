@@ -1,4 +1,4 @@
-<?php include('header.php')?>
+<?php include('header.php') ?>
 
 <section class="about inner-section">
     <div class="container">
@@ -26,21 +26,21 @@
                     <div class="col-md-4 p-2">
                         <div class="about-img-block">
                             <div class="about-img">
-                                <img class="img-fluid" src="assets/img/bg/photography.jpg">                                
+                                <img class="img-fluid" src="assets/img/bg/photography.jpg">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 p-2">
                         <div class="about-img-block">
                             <div class="about-img">
-                                <img class="img-fluid" src="assets/img/bg/photography.jpg">                                
+                                <img class="img-fluid" src="assets/img/bg/photography.jpg">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 p-2">
                         <div class="about-img-block">
                             <div class="about-img">
-                                <img class="img-fluid" src="assets/img/bg/photography.jpg">                                
+                                <img class="img-fluid" src="assets/img/bg/photography.jpg">
                             </div>
                         </div>
                     </div>
@@ -86,53 +86,74 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="service-small">
-                    <img class="img-fluid" src="assets/img/services/1.jpg">
+                    <div class="img-block">
+                        <img class="img-fluid" src="assets/img/services/12.jpg">
+                    </div>
                     <h4>Invitations</h4>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="service-small">
-                    <img class="img-fluid" src="assets/img/bg/photography.jpg">
+                <div class="img-block">
+                <img class="img-fluid" src="assets/img/services/4.jpg">
+
+                    </div>
                     <h4>Photography</h4>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="service-small">
-                    <img class="img-fluid" src="assets/img/bg/decorations.jpg">
+                <div class="img-block">
+                <img class="img-fluid" src="assets/img/bg/decorations.jpg">
+
+                    </div>
                     <h4>Decorations</h4>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="service-small">
-                    <img class="img-fluid" src="assets/img/bg/catering.jpg">
+                <div class="img-block">
+                <img class="img-fluid" src="assets/img/bg/catering.jpg">
+                    </div>
+
                     <h4>Catering</h4>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="service-small">
-                    <img class="img-fluid" src="assets/img/bg/beautician.jpg">
+                <div class="img-block">
+                <img class="img-fluid" src="assets/img/bg/beautician.jpg">
+
+                    </div>
                     <h4>Beautician</h4>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="service-small">
-                    <img class="img-fluid" src="assets/img/services/6.jpg">
+                <div class="img-block">
+                <img class="img-fluid" src="assets/img/services/6.jpg">
+
+                    </div>
                     <h4>Travel</h4>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="service-small">
-                    <img class="img-fluid" src="assets/img/services/7.jpg">
+                <div class="img-block">
+                        <img class="img-fluid" src="assets/img/services/13.jpg">
+                    </div>
                     <h4>Lights & Sounds</h4>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="service-small">
-                    <img class="img-fluid" src="assets/img/services/8.jpg">
+                <div class="img-block">
+                        <img class="img-fluid" src="assets/img/services/8.jpg">
+                    </div>
                     <h4>Entertainment</h4>
                 </div>
-            </div>            
+            </div>
         </div>
     </div>
 </section>
-<?php include('footer.php')?>
+<?php include('footer.php') ?>
